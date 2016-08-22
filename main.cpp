@@ -10,12 +10,12 @@ int main() {
   bool debug = false;
 
   #if DEBUG
-  	cout << "Debug mode enabled";
+  	cout << "Debug mode enabled\n";
 	debug = true;
   #endif
   while (test >> word){
 	if(debug){
-		cout << word+"\n";
+		cout << "DEBUG: "+word+"\n";
 	}
 	++nwords;
 
